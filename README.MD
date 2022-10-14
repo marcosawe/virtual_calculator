@@ -1,25 +1,25 @@
-## Projeto Calculadora Gráfica 🐍🧮📈📉
+## Graphing Calculator Project 🐍🧮📈📉
 
-### Projeto de interface gráficas com a biblioteca `PyQt5` da linguagem de programação `Python`.
+### Graphical interface project with the `PyQt5` library of the `Python` programming language.
 
 
-![Vídeo](./assets/ezgif.com-gif-maker.gif)
+![Vídeo code](./assets/ezgif.com-gif-maker.gif)
 
- A interface se consiste em uma calculadora digital gerada em um ambiente de virtualização sem utilizar um ambiante gráfico de modelagem externo. A biblioteca `PyQt5` é uma das mais poderosas formas de se criar um ambiente gráficos e o desafio teve como objetivo desbravar as diversas sintaxes que essa biblioteca nos oferece...
+ The interface consists of a digital calculator generated in a virtualization environment without using an external graphical modeling environment. The `PyQt5` library is one of the most powerful ways to create a graphical environment and the challenge was to discover the different syntaxes that this library offers us...
 
- Para instalar a biblioteca deve-se primeiro criar um ambiente virtual para a aplicação, para que a mesma não sofra interferência de um escopo global de outros projetos. Para isso fazemos que 
- 
+ To install the library, you must first create a virtual environment for the application, so that it does not suffer interference from a global scope of other projects. For that we do:
+
  ```sh
     python -m venv nome_da_pasta
  ```
 
- Depois de instalado o ambiente virtual instale a biblioteca do `PyQt5`
+ After installing the virtual environment, install the `PyQt5` library
 
  ```sh
     pip install pyqt5          
  ```
 
- Para rodar o arquivo basta ter efetuado todos os passos anteriores e por fim executar
+ To run the file, just have performed all the previous steps and finally run
 
  ```sh
     python calculadora.py   
